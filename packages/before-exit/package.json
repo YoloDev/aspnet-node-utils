@@ -1,0 +1,20 @@
+{
+  "name": "@yolodev/before-exit",
+  "version": "0.1.0",
+  "description": "Runs a function before application terminates",
+  "main": "dist/before-exit.js",
+  "module": "dist/before-exit.mjs",
+  "types": "src/before-exit.ts",
+  "scripts": {
+    "rollup": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aleksander Heintz <alxandr@alxandr.me>",
+  "license": "ISC",
+  "build": {
+    "name": "before-exit",
+    "main": "src/before-exit.ts"
+  },
+  "dependencies": {
+  }
+}

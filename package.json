@@ -1,0 +1,18 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "@lerna/collect-packages": "^3.0.0-beta.11",
+    "@lerna/package": "^3.0.0-beta.12",
+    "@lerna/project": "^3.0.0-beta.11",
+    "@types/node": "^9.6.1",
+    "lerna": "^3.0.0-beta.12",
+    "rollup": "^0.57.1",
+    "rollup-plugin-auto-external": "^1.2.0",
+    "rollup-plugin-typescript2": "^0.12.0",
+    "typescript": "^2.8.1"
+  },
+  "scripts": {
+    "build": "lerna run --parallel rollup"
+  }
+}
