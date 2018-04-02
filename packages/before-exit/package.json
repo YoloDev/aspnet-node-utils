@@ -16,5 +16,8 @@
     "main": "src/before-exit.ts"
   },
   "dependencies": {
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
