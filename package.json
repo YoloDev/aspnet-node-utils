@@ -13,6 +13,7 @@
     "typescript": "^2.8.1"
   },
   "scripts": {
-    "build": "lerna run --parallel rollup"
+    "build": "rollup -c",
+    "watch": "rollup -cw"
   }
 }

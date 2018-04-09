@@ -6,7 +6,6 @@
   "module": "dist/before-exit.mjs",
   "types": "src/before-exit.ts",
   "scripts": {
-    "rollup": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Aleksander Heintz <alxandr@alxandr.me>",

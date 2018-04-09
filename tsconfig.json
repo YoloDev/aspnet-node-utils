@@ -3,7 +3,7 @@
     "strict": true,
     "module": "esnext",
     "target": "esnext",
-    "declaration": false,
+    "declaration": true,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true
   },

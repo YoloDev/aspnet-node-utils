@@ -26,7 +26,14 @@ export default async ({ location, main, name }) => {
         packagePath: location,
         peerDependencies: true,
       }),
-      typescript({}),
+      typescript({
+        tsconfigOverride: {
+          compilerOptions: {
+            rootDir: path.resolve(location, 'src'),
+          },
+          include: [path.resolve(location, 'src')],
+        },
+      }),
     ],
   };
 };

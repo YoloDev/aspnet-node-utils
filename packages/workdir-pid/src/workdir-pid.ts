@@ -11,8 +11,8 @@ const close = promisify(fs.close);
 const write = promisify(fs.write);
 const unlink = promisify(fs.unlink);
 
-type SpawnHandler = () => ChildProcess;
-type LiveHandler<T> = (proc: ChildProcess) => Promise<T>;
+export type SpawnHandler = () => ChildProcess;
+export type LiveHandler<T> = (proc: ChildProcess) => Promise<T>;
 
 export interface IPidManager {
   exists(): Promise<boolean>;
